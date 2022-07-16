@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300&family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+.m-top {
+  margin-top: 2rem;
+}
+
+.mg-b-sm {
+  margin-bottom: 2rem;
+}
+
+.mg-b-m {
+  margin-bottom: 3.5rem;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.main {
+  margin: auto;
+}
+
+.main .section-predata {
+  position: relative;
+  padding-top: 05rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#682381), to(rgba(46, 30, 77, 0.9)));
+  background-image: linear-gradient(to right, #682381, rgba(46, 30, 77, 0.9));
+  -webkit-transform: skewY(-8deg);
+          transform: skewY(-8deg);
+  padding-bottom: 5rem;
+  margin-top: -10rem;
+}
+
+.main .section-predata .section-data {
+  margin: auto;
+  width: 90%;
+  -webkit-transform: skewY(8deg);
+          transform: skewY(8deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 15rem;
+}
+
+.main .section-predata .section-data .options-section {
+  width: 100%;
+  max-width: 40rem;
+  color: #fff;
+}
+
+.main .section-predata .section-data .options-section .caption-main {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.main .section-predata .section-data .options-section .caption-sec {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.main .section-predata .section-data .options-section .what-we-offer-container {
+  position: relative;
+  margin-top: 3rem;
+  border: 3px dashed #fff;
+  border-radius: 5px;
+}
+
+.main .section-predata .section-data .options-section .what-we-offer-container .offer-caption {
+  position: absolute;
+  top: -1.2rem;
+  left: 1rem;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: red;
+  padding: 0.4rem 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.main .section-predata .section-data .options-section .what-we-offer-container .checkbox-container {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.main .section-predata .section-data .options-section .what-we-offer-container .checkbox-container .radio-container {
+  margin-top: 1rem;
+}
+
+.main .section-predata .section-data .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: -7rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  width: 100%;
+  max-width: 25rem;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main .section-predata .section-data .form-container .form .personal-detail {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.main .section-predata .section-data .form-container .form .input-container {
+  position: relative;
+  margin-bottom: 3rem;
+  /* Firefox */
+}
+
+.main .section-predata .section-data .form-container .form .input-container input[type="text"],
+.main .section-predata .section-data .form-container .form .input-container input[type="number"] {
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.main .section-predata .section-data .form-container .form .input-container input::-webkit-outer-spin-button,
+.main .section-predata .section-data .form-container .form .input-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.main .section-predata .section-data .form-container .form .input-container input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.main .section-predata .section-data .form-container .form .input-container .field-name {
+  position: absolute;
+  top: -0.8rem;
+  left: 1rem;
+  padding: 0 0.2rem 0 0.2rem;
+  background-color: #fff;
+}
+
+.main .section-predata .section-data .form-container .form .city-select-container {
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 2px;
+  margin-bottom: 3rem;
+}
+
+.main .section-predata .section-data .form-container .form .city-select-container #city {
+  border: none;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.main .section-predata .section-data .form-container .form .cta-select-container {
+  border-radius: 2px;
+}
+
+.main .section-predata .section-data .form-container .form .cta-select-container .cta-btn {
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  padding: 1.25rem;
+  background-color: #da2128;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .main .section-predata .section-data .form-container {
+    margin-top: 5rem !important;
+  }
+}
+
+.main .caption-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10rem 2rem;
+}
+
+.main .caption-section .dialogue-section {
+  width: 100%;
+  max-width: 40rem;
+}
+
+.main .caption-section .dialogue-section .caption-main {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.main .caption-section .image-section {
+  position: relative;
+  width: 100%;
+  max-width: 35rem;
+}
+
+.main .caption-section .image-section img {
+  position: absolute;
+  bottom: -1rem;
+  width: 100%;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+@media screen and (max-width: 1400px) {
+  .main .caption-section .image-section img {
+    position: unset;
+    margin-top: 5rem;
+    width: 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.main .option-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f4f7fd), to(#f4f7fd));
+  background-image: linear-gradient(to right, #f4f7fd, #f4f7fd);
+  padding-bottom: 2rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+
+.main .option-section .caption-main {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main .option-section .caption-mini {
+  text-align: center;
+}
+
+.main .option-section .main-point-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main .option-section .main-point-container .points-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .option-section .main-point-container .points-container .num-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  padding: 2rem;
+  height: 25px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.main .option-section .main-point-container .points-container .txt-container {
+  padding-left: 1rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=main.css.map */
